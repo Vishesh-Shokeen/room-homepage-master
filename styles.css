@@ -199,7 +199,7 @@ why do i have to declare width 100% when max width 100% is set on reset
 
 .gridBox3{
     grid-row: 3;
-    background: url(/images/image-about-dark.jpg);
+    background: url(./images/image-about-dark.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -227,7 +227,7 @@ why do i have to declare width 100% when max width 100% is set on reset
 
 .gridBox5{
     grid-row: 5;
-    background: url(/images/image-about-light.jpg);
+    background: url(./images/image-about-light.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -263,7 +263,7 @@ why do i have to declare width 100% when max width 100% is set on reset
     .gridBox3 {
         grid-row: 2;
         grid-column: 1;
-        background: url(/images/image-about-dark.jpg);
+        background: url(./images/image-about-dark.jpg);
         background-size: cover;
         
     }
@@ -277,7 +277,7 @@ why do i have to declare width 100% when max width 100% is set on reset
     .gridBox5 {
         grid-row: 2;
         grid-column: 3;
-        background: url(/images/image-about-light.jpg);
+        background: url(./images/image-about-light.jpg);
         background-size: cover;
     }
 

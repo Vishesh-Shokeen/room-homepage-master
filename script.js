@@ -35,8 +35,8 @@ nextArrow.addEventListener('click',nextArrowFunc)
 function prevArrowFunc(){
     if(SliderCount > 1){
         --SliderCount
-        sliderImg.src = `/images/desktop-image-hero-${SliderCount}.jpg`
-        mobileImg.srcset = `/images/mobile-image-hero-${SliderCount}.jpg`
+        sliderImg.src = `./images/desktop-image-hero-${SliderCount}.jpg`
+        mobileImg.srcset = `./images/mobile-image-hero-${SliderCount}.jpg`
         changetext()
     }
 
@@ -45,8 +45,8 @@ function prevArrowFunc(){
 function nextArrowFunc(){
     if(SliderCount < 3){
         ++SliderCount
-        sliderImg.src = `/images/desktop-image-hero-${SliderCount}.jpg`
-        mobileImg.srcset = `/images/mobile-image-hero-${SliderCount}.jpg`
+        sliderImg.src = `./images/desktop-image-hero-${SliderCount}.jpg`
+        mobileImg.srcset = `./images/mobile-image-hero-${SliderCount}.jpg`
         changetext()
     }
 }
